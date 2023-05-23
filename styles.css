@@ -53,7 +53,6 @@ font-weight: normal;
     }
     .titleAmper{
                 font-size: .9em;
-
     }
 
     h1.title_expertise_subtitle {
@@ -62,7 +61,7 @@ font-weight: normal;
 
     h1.title_expertise {
         font-size: 2em;
-        margin: 20px 0px;
+        margin: 0px 0px 20px 0px;
     }
 
     .text-center {
@@ -78,9 +77,15 @@ font-weight: normal;
     }
     h1.title_expertise_subtitle{
         font-size: 1.4em;
-        margin-top: 20px;
-            
+        margin-top: 20px;       
     }
+    
+       body {
+        background-color: ;
+    }
+    span.titleAmper {
+        font-size: .9em;
+}
 
 }
 
@@ -90,14 +95,14 @@ font-weight: normal;
     }
     
     .titleAmper{
-        font-size: 1em
+        font-size: 1em;
     }
     h1.title{
         font-size: 2.5em;
         margin-top: 20px;
     }
     h1.title_expertise {
-        margin: 20px 0px;
+ margin: 0px 0px 20px 0px;
     }
 
     h1.title_expertise_subtitle {
@@ -187,7 +192,7 @@ h4 {
 .title_expertise {
     font-family: 'Roboto', 'Futura Std', sans-serif;
     font-weight: normal;
-    font-size: 3em;
+    font-size: 2.9em;
     color: #E5AA24;
     text-transform: uppercase;
 }
@@ -284,7 +289,7 @@ li.arrow::before {
     top: 10px;
     height: 10px;
     width: 10px;
-    border: 1px solid #f9dd94;
+    border: 1px solid #017F7F;
     border-width: 2px 2px 0 0;
     transform: rotate(45deg);
     line-height: 2em;
