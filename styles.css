@@ -77,7 +77,6 @@ h6 {
     .socialIcons{
         width: 15%;
     }
-
 }
 
 @media screen and (min-width: 350px) {
@@ -210,6 +209,8 @@ h4 {
     margin: auto;
     margin-top: 50px;
 }
+
+
 
 .Background {
     margin-top: 25px;
@@ -579,14 +580,14 @@ button.btn {
     overflow: hidden;
     position: relative;
     width: 95%;
-    background-image: url(images/business_team.jpg);
+    background-image: url(images/What_we_do.jpg);
     background-attachment: fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 
