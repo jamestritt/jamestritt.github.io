@@ -74,6 +74,9 @@ h6 {
         width: 95%;
         margin: 0 auto;
     }
+    .socialIcons{
+        width: 15%;
+    }
 
 }
 
@@ -94,6 +97,9 @@ h6 {
     span.titleAmper {
         font-size: .9em;
     }
+    .socialIcons{
+        width: 90%;
+    }
 
 }
 
@@ -101,6 +107,9 @@ h6 {
     body {
         background-color: ;
     }
+    .col-12.col-md-6.col-lg-2.card-group {
+    padding: 15px;
+}
     .box{
         background-color: white;
         border-style: none;
@@ -111,10 +120,12 @@ h6 {
 
     h1.title {
         font-size: 2em;
+        padding-top: 12px;
     }
 
     h1.title_expertise {
         margin: 0px 0px 20px 0px;
+        padding-top: 12px;
     }
 
     h1.title_expertise_subtitle {
@@ -123,7 +134,12 @@ h6 {
     }
 
     img.socialIcons {
-        width:100%;
+        width:10%;
+    }
+    
+    .about_us_photo {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
 }
@@ -139,6 +155,8 @@ h6 {
     max-width: 100%;
     margin: auto;
 }
+
+
 
 .card_shadow {
     min-height: 420px;
@@ -194,9 +212,9 @@ h4 {
 }
 
 .Background {
-    margin-top: 150px;
+    margin-top: 25px;
     background-image: url(images/test.png);
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 
@@ -214,6 +232,7 @@ h4 {
     font-size: 2em;
     color: #E5AA24;
     text-transform: uppercase;
+    padding-top: 12px;
 }
 
 .title_black {
@@ -230,7 +249,7 @@ h4 {
     font-size: 2em;
     color: #E5AA24;
     text-transform: uppercase;
-    padding: 12px;
+    padding-top: 12px;
 }
 
 .title_Green {
@@ -268,7 +287,7 @@ h4 {
 .card-title {
     font-family: 'Roboto', 'Futura Std', sans-serif;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.25em;
     color: black;
     text-transform: uppercase;
 }
@@ -688,7 +707,6 @@ img.about_us_photo {
 }
 
 .socialIcons {
-    width: 10%;
     padding-right: 20px;
 }
 
@@ -697,6 +715,10 @@ img.about_us_photo {
 }
 
 /* Career */
+
+.card-group{
+    margin: auto;
+}
 
 .career_list {
     padding-top: 10px;
