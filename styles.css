@@ -291,6 +291,7 @@ h4 {
     font-size: 1.25em;
     color: black;
     text-transform: uppercase;
+    word-wrap: normal;
 }
 
 .card-text {
