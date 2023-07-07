@@ -155,8 +155,6 @@ h6 {
     margin: auto;
 }
 
-
-
 ul {
     line-height: 1.5em;
     margin: 5px 0 15px;
@@ -176,7 +174,9 @@ a {
 a:hover {
     color: #E5AA24;
 }
-
+.phoneNumber{
+        color: #017F7F;
+}
 ul.navbar-nav.ms-auto {
     margin-right: 30px;
 }
@@ -235,6 +235,19 @@ h4 {
     color: #E5AA24;
     text-transform: uppercase;
     padding-top: 12px;
+}
+.title_career{
+    font-family: 'Roboto', 'Futura Std', sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    color: #E5AA24;
+    text-transform: uppercase;
+    padding-top: 12px;
+    text-align: center;
+}
+.bodyCopy_career{
+        text-align: center;
+
 }
 
 .title_black {
@@ -314,7 +327,7 @@ h4 {
     transition: .5s ease;
 }
 
-.card-body:hover .overlay {
+.card-a:hover .overlay {
     height: 100%;
 }
 
